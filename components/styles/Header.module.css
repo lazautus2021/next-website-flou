@@ -1,8 +1,9 @@
 .header {
   position: relative;
   height: 100vh;
-  width: 100%;
+  width: 100vw;
   overflow: hidden;
+  background-color: blue;
 }
 
 .vidLayer {
@@ -61,11 +62,13 @@
   -webkit-box-align: center;
   justify-content: flex-end;
   -webkit-box-pack: end;
-  padding: 36px 0;
+ 
   position: absolute;
-  width: 85.27473%;
+  
   margin: 0 auto;
-  margin-left: 7.36264%;
+  width: 90vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
   height: calc(100vh - 90px);
   align-items: center;
 }
@@ -74,17 +77,20 @@
   color: rgb(255, 255, 255);
   position: absolute;
   left: 0px;
-  top: 50%;
-  width: 50%;
+
   display: block;
-  transform: translateY(-50%);
+
+
 }
+
+
 
 .title > h1 {
   /* text-align: center;
   vertical-align: middle; */
   /* display: table-row; */
-  font-size: 30px;
+  font-size: 3rem;
+  max-width: 70vw;
   text-shadow: 2px 2px 5px  rgb(41, 36, 66);
 }
 
@@ -92,6 +98,7 @@
   /* text-align: center;
   vertical-align: middle; */
   /* display: table-row; */
+  font-size: 2rem;
   text-shadow: 2px 2px 5px  rgb(41, 36, 66);
 }
 

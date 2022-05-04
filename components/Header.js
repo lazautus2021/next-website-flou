@@ -14,7 +14,7 @@ export default function HomeHeaderAndNav({ title }) {
 
   return (
     <>
-      <div className={styles.header}>
+      <div className={styles.header + " " + styles.snapArea} >
         <HomeSvg className={styles.svgLayer} src="/img/wave_white.svg" />
         <NavBar />
         <div className={styles.titlewrapper}>

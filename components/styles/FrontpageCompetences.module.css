@@ -1,6 +1,9 @@
 .container {
   width: 100%;
   background-color: white;
+
+  scroll-snap-align: start;
+
 }
 .heading {
   padding-top: 30px;

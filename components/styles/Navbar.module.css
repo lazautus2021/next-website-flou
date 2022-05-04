@@ -8,10 +8,14 @@
 }
 
 .logo {
-  max-width: 75px;
-  position: absolute;
-  left: 30px;
-  top: 35px;
+ 
+
+ 
+}
+
+.logo > img {
+ width: 20vw;
+ height: auto;
 }
 
 .logo:hover {
@@ -35,6 +39,7 @@
   position: relative;
   visibility: hidden;
   overflow: hidden;
+  font-size: 2rem;
 }
 
 .links > nav > a {

@@ -55,3 +55,12 @@
   }
   
 }
+
+
+.snapArea {
+  scroll-snap-align: start;
+}
+
+.snapContainer {
+  scroll-snap-type: y mandatory;
+}
